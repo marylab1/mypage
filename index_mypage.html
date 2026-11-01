@@ -1,0 +1,192 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2회차 | 내가 좋아하는 것들로 채우는 MY PAGE!</title><style>
+:root{--bg:#f3f7fd;--ink:#18253f;--sub:#50647d;--blue:#2768ce;--line:#dce5f2;--white:#fff;--soft:#eaf2ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,'Malgun Gothic',sans-serif;color:var(--ink);font-size:17px}button,input,textarea,select{font:inherit}button{cursor:pointer;min-height:46px;border-radius:12px;border:1px solid var(--line);padding:10px 16px;background:#fff;color:var(--ink)}button.primary{background:var(--blue);border-color:var(--blue);color:white;font-weight:750}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #7ba9ff}header{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:3}.top{max-width:1260px;margin:auto;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}.top h1{font-size:19px;margin:0}.small{font-size:13px;color:var(--sub)}.progress{height:5px;background:#e1eafb}.progress>div{height:100%;background:var(--blue);transition:width .2s}.shell{max-width:1260px;margin:18px auto;padding:0 20px;display:grid;grid-template-columns:200px minmax(0,1fr);gap:18px}.sidebar,.panel,.block{background:white;border:1px solid var(--line);border-radius:17px}.sidebar{padding:12px;align-self:start;position:sticky;top:77px}.navbtn{border:0;width:100%;text-align:left;font-size:14px;min-height:43px;padding:9px 11px;margin:2px 0;border-radius:9px}.navbtn.active{background:var(--soft);font-weight:800;color:#154a9b}.panel{padding:22px 25px;min-height:560px}.page{display:none}.page.active{display:block}.page h2{font-size:27px;margin:2px 0 12px}.page h3{font-size:19px;margin:18px 0 10px}.lead{color:var(--sub);line-height:1.6;margin-bottom:18px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:15px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.block{padding:16px;margin:10px 0}.muted{background:#f5f8fd}.field{margin:12px 0}label{display:block;font-weight:700;font-size:15px;margin-bottom:6px}input[type=text],input[type=url],textarea,select{width:100%;padding:12px;border:1px solid #b9c9de;border-radius:10px;background:white;min-height:47px;color:var(--ink)}textarea{min-height:88px;resize:vertical}.choice{display:flex;align-items:center;gap:9px;border:1px solid var(--line);padding:12px;border-radius:11px;margin:7px 0;background:white}.choice input{height:20px;width:20px;flex-shrink:0}.mini{font-size:14px;color:var(--sub)}.example{border-left:4px solid #6d9bdd;background:#f4f8ff;padding:12px 16px;border-radius:8px}.prompt{white-space:pre-wrap;background:#0f1e34;color:#ecf4ff;border-radius:12px;padding:17px;font:14px/1.65 ui-monospace,Consolas,monospace;max-height:300px;overflow:auto;overflow-wrap:anywhere}.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px}.footer{display:flex;justify-content:space-between;gap:12px;margin-top:25px;padding-top:18px;border-top:1px solid var(--line)}.tip{border-radius:10px;padding:13px 15px;background:#eaf2ff;font-size:15px;line-height:1.65}.warn{background:#fff4df}.tag{display:inline-block;font-size:12px;color:#2057a3;background:#eaf2ff;border-radius:7px;padding:5px 9px;margin-bottom:8px}.count{color:var(--blue);font-weight:800}#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#153e77;color:white;padding:12px 22px;border-radius:12px;display:none;z-index:9}a{color:#1857b4}ul,ol{line-height:1.8}.check{display:flex;align-items:flex-start;gap:9px;padding:8px 0}.check input{height:21px;width:21px;flex-shrink:0}details{border:1px solid var(--line);padding:12px 16px;border-radius:11px;background:#fff;margin-top:10px}summary{cursor:pointer;font-weight:750}@media(max-width:850px){.shell{grid-template-columns:1fr;margin:10px auto}.sidebar{position:static;display:flex;overflow:auto;gap:6px}.navbtn{white-space:nowrap;width:auto}.top h1{font-size:15px}.grid2,.grid3{grid-template-columns:1fr}.panel{padding:17px}}@media(max-height:680px){.top{padding:7px 16px}.sidebar{top:58px}.panel{min-height:400px}}
+
+
+/* LESSON 01 reference-matched tablet landscape visual system */
+:root{--bg:#f3f6fb;--ink:#152b49;--sub:#6e829e;--blue:#2b6bfb;--line:#e0e8f4;--white:#fff;--soft:#eef4fc;--navy:#142a49;--mint:#b0efd1}
+body{background:var(--bg);color:var(--ink);font-size:16px;line-height:1.5}
+.app-header{background:transparent;border:0;position:sticky;top:0;box-shadow:0 1px 5px rgba(30,52,80,.05)}
+.app-header .top{max-width:1224px;padding:13px 16px;min-height:76px}
+.app-header:before{content:"";position:absolute;left:0;right:0;top:0;height:76px;background:var(--navy);z-index:-1}
+.brand{display:flex;align-items:center;gap:14px;min-width:0}
+.brand-icon{width:45px;height:45px;flex:none;border-radius:13px;background:var(--mint);display:flex;align-items:center;justify-content:center;font-size:25px}
+.brand-eyebrow{font-weight:800;font-size:11px;letter-spacing:.16em;color:#a6e6cf;margin-bottom:2px}
+.top h1{color:#fff;font-size:22px;letter-spacing:-.035em;line-height:1.3}
+.header-right{display:flex;align-items:center;gap:9px;white-space:nowrap}
+.save-note{font-size:12px;color:#b2c3d9}.save-dot{display:inline-block;width:6px;height:6px;margin-right:7px;border-radius:50%;background:#a5eccf;vertical-align:middle}
+.header-count{font-size:12px;color:#adc1da;margin:0 7px}
+.header-arrow{min-height:40px;width:41px;padding:0;border:0;background:#213c5d;color:#ecf4ff;font-size:21px;border-radius:10px}
+.header-arrow:hover{background:#2d4e75}
+.tab-shell{background:#fff;border-bottom:1px solid #e5ebf4}
+.sidebar{max-width:1224px;margin:auto;border:0;border-radius:0;background:transparent;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;align-items:stretch;padding:9px 16px;position:static;overflow:visible}
+.navbtn{display:flex;align-items:center;justify-content:center;gap:7px;min-width:0;border:0;border-radius:10px;min-height:40px;width:100%;padding:6px 7px;margin:0;background:transparent;color:#8493a9;font-size:13px;white-space:nowrap}
+.navnumber{font-size:11px;font-weight:850;background:#edf2f9;border-radius:7px;color:#6481ae;padding:5px 6px}
+.navtitle{font-size:13px}
+.navbtn.active{background:var(--navy);color:#fff;font-weight:800}
+.navbtn.active .navnumber{background:var(--mint);color:#245d4e}
+.navbtn:hover:not(.active){background:#f0f5fc;color:#3c5b84}
+.progress{height:3px;background:#e5edf9}.progress>div{background:var(--blue)}
+.shell{max-width:1224px;margin:0 auto;padding:24px 16px 42px;display:block}
+.panel{border:0;border-radius:0;padding:0;min-height:calc(100vh - 180px);background:transparent}
+.page>.tag{background:transparent;color:var(--blue);padding:0;margin:0 0 4px;letter-spacing:.11em;font-weight:850;text-transform:uppercase}
+.page h2{font-size:29px;letter-spacing:-.04em;margin:4px 0 4px;color:var(--navy)}
+.page h3{font-size:19px;letter-spacing:-.02em;color:#183252;margin:0 0 12px}
+.page>.lead{color:#7487a1;font-size:16px;line-height:1.6;margin:0 0 20px}
+.block{background:#fff;border:1px solid #e0e8f3;border-radius:17px;padding:20px 22px;margin:0 0 16px;box-shadow:0 1px 1px rgba(16,40,70,.02)}
+.block.muted,.muted{background:#f9fbff}
+.grid2{gap:18px}.grid3{gap:15px}
+.field{margin:14px 0}label{color:#203958}
+input[type=text],input[type=url],textarea,select{background:#fff;border:1px solid #d9e3f0;border-radius:10px;padding:12px 14px;color:var(--navy)}
+input:focus,textarea:focus,select:focus{border-color:#749df6}
+button{border-radius:10px;border-color:#d9e4f1;background:#fff;font-size:14px}
+button.primary{background:var(--navy);border-color:var(--navy);color:white}
+button.primary:hover{background:#244364}
+.choice{border-color:#e1eaf5;border-radius:12px;padding:13px 15px;background:#fff}
+.choice:has(input:checked){border-color:#4c82dd;background:#eef5ff}
+.tip{background:#eaf1ff;color:#265389;border-radius:12px;padding:15px 18px}
+.warn{background:#fff4df;color:#79571c}
+.prompt{background:#142a49;border-radius:15px;color:#eef6ff;max-height:310px;font-size:13px;line-height:1.7}
+.example{background:#f0f6ff;border-left:4px solid #8bbaf7}
+.footer{margin-top:22px;padding:17px 0 0}
+#toast{background:var(--navy)}
+details{border:1px solid #dfe8f3;border-radius:14px}
+@media(max-width:950px){.app-header .top{min-height:68px}.app-header:before{height:68px}.top h1{font-size:17px}.save-note{display:none}.shell{padding-top:18px}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid2{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.sidebar{grid-template-columns:repeat(2,minmax(0,1fr))}.navbtn{justify-content:flex-start}.brand-eyebrow{font-size:9px}.brand-icon{width:38px;height:38px}.top h1{font-size:15px}.header-count{display:none}.header-arrow{width:32px;min-height:35px}.shell{padding:15px 12px}.grid2,.grid3{grid-template-columns:1fr}.block{padding:16px}.page h2{font-size:24px}.navbtn{min-height:40px}}
+@media print{.app-header,.tab-shell,.shell{display:none!important}}
+
+.lesson-hero{background:#142a49;border-color:#142a49;color:#fff;min-height:225px;display:flex;flex-direction:column;justify-content:space-between}.hero-kicker{font-size:11px;color:#a2ead0;letter-spacing:.1em;font-weight:850}.hero-content{display:flex;justify-content:space-between;align-items:end;gap:10px}.hero-content strong{font-size:27px;letter-spacing:-.04em;line-height:1.3}.hero-content p{color:#c4d6eb;font-size:14px;margin:13px 0 0}.hero-pixel{font-size:64px;line-height:1.1}.lesson-hero h3{color:white}
+/* Activity record PDF / print-only layout */
+#printReport{display:none}
+@media print{
+ @page{size:A4 portrait;margin:17mm 16mm}
+ html,body{background:#fff!important;margin:0!important;padding:0!important;color:#17243b!important;font-size:11pt!important}
+ header,.shell,#toast{display:none!important}
+ #printReport{display:block!important;font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;line-height:1.55;color:#17243b}
+ #printReport h1{font-size:20pt;margin:0 0 5mm;color:#142e5b}
+ #printReport h2{font-size:12.5pt;margin:6mm 0 2mm;padding-bottom:1mm;border-bottom:1px solid #c8d5e5}
+ #printReport .report-meta{font-size:10pt;color:#475569;margin-bottom:5mm}
+ #printReport .report-entry{margin:2mm 0;overflow-wrap:anywhere;white-space:pre-wrap}
+ #printReport .report-card{border:1px solid #d7dfeb;border-radius:7px;padding:3mm 4mm;margin:2mm 0;break-inside:avoid}
+ #printReport .report-label{font-weight:bold;color:#1d4c83}
+ #printReport .report-foot{border-top:1px solid #c8d5e5;margin-top:9mm;padding-top:3mm;font-size:9pt;color:#64748b}
+}
+.prompt[contenteditable]{cursor:text;min-height:120px;outline-offset:3px}
+.prompt[contenteditable]:focus{outline:3px solid #7ba9ff}
+.prompt-editor-note{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:8px 0}
+.prompt-editor-note button{font-size:12px;min-height:32px;padding:5px 9px}
+</style></head><body><header class="app-header"><div class="top"><div class="brand"><div class="brand-icon" aria-hidden="true">🏠</div><div><div class="brand-eyebrow">VIBE CODING LAB / LESSON 02</div><h1>내가 좋아하는 것들로 채우는 MY PAGE!</h1></div></div><div class="header-right"><span class="save-note"><span class="save-dot"></span>기기에 자동 저장됨</span><span class="header-count" id="stepLabel">01 / 10</span><button type="button" class="header-arrow" aria-label="이전 단계" onclick="go(current-1)">←</button><button type="button" class="header-arrow" aria-label="다음 단계" onclick="go(current+1)">→</button></div></div><div class="tab-shell"><nav class="sidebar" id="nav" aria-label="활동 단계"></nav></div><div class="progress"><div id="bar" style="width:10%"></div></div></header><div class="shell"><main class="panel" id="main">
+<section class="page active" data-title="지난 시간 돌아보기"><div class="tag">STEP 1 · 도입</div><h2>🦖 지난 시간에는?</h2><p class="lead">지난 시간에는 AI와 함께 공룡 점프 게임을 만들었어요. 오늘은 <b>새 Gemini 대화</b>에서 나를 소개하는 홈페이지를 만듭니다. 공룡게임은 실행하지 않고 <b>첫 작품 썸네일</b>로만 소개할 거예요.</p><div class="grid2"><div class="block lesson-hero"><div class="hero-kicker">TODAY'S QUEST</div><div class="hero-content"><div><strong>나를 발견하고,<br>홈페이지로 표현해요.</strong><p>관심사 찾기 → 홈페이지 제작<br>이미지 연결 → 카드 기능 추가</p></div><span class="hero-pixel" aria-hidden="true">🏠</span></div></div><div class="block"><h3>오늘 만들 홈페이지</h3><p><b>ABOUT ME</b> · <b>MY INTEREST</b> 카드 3장 · <b>MY FIRST PROJECT</b></p><p class="mini">관심사 이름·이모지·좋아하는 이유가 보이는 카드부터 만들어요. 나중에 기능을 업그레이드합니다.</p><h3 style="margin-top:16px">우리의 바이브코딩 과정</h3><p><b>생각 → 요청 → 실행 → 확인 → 수정</b></p></div></div><div class="field"><label for="student">학번·별명 (선택, 이 기기에만 저장)</label><input id="student" type="text" placeholder="예: 10101 / 별명"></div><div class="tip">🎯 오늘의 미션: <b>내가 좋아하는 것 세 가지를 직접 정하고</b>, 그것을 소개하는 홈페이지를 AI와 함께 만들어 보자!</div></section>
+<section class="page" data-title="취향 밸런스 게임"><div class="tag">STEP 2 · 약 5~7분</div><h2>⚖️ 나의 취향 밸런스 게임</h2><p class="lead">둘 중 지금 나에게 조금 더 가까운 것을 선택하세요. <b>정답도 성격 판정도 없어요.</b> 이 결과는 AI 분석에 보내지 않고, 나중에 자기소개 문장이 막힐 때만 힌트로 사용합니다.</p><div id="balance"></div><p class="tip">💡 내가 고른 답 중에서 “이건 나와 닮았네!” 싶은 것을 하나 떠올려 보세요.</p></section>
+<section class="page" data-title="관심사 TOP 3"><div class="tag">STEP 3 · 약 7분</div><h2>❤️ MY INTEREST TOP 3</h2><p class="lead">나를 표현할 수 있는 <b>관심사 세 가지를 직접</b> 적어 보세요. 진로나 직업일 필요는 없어요. 게임, 축구, 음악, 웹툰, 동물, 요리 등 무엇이든 좋아요.</p><div class="grid3" id="interests"></div><div class="tip">✍️ 이름만 적기보다 <b>무엇이 좋은지</b> 한두 문장으로 설명해 보세요. 나중에 홈페이지 관심사 카드의 글이 됩니다.</div></section>
+<section class="page" data-title="나를 소개하는 한 문장"><div class="tag">STEP 4 · 약 5분</div><h2>✏️ ABOUT ME — 나를 한 문장으로!</h2><p class="lead">내가 좋아하는 것, 즐겨 하는 활동, 나의 모습을 떠올려 나를 소개하는 한 문장을 직접 작성해 봅시다.</p><div class="block"><h3>💬 이런 식으로 나를 소개해도 좋아요!</h3><p class="mini">마음에 드는 표현을 참고해서 <b>나에게 맞는 말로</b> 바꿔 보세요. 멋진 말보다 진짜 내 모습이 중요해요.</p><ul><li><b>좋아하는 것:</b> 저는 축구와 음악을 좋아해요.</li><li><b>즐거운 순간:</b> 친구들과 게임할 때 가장 즐거워요.</li><li><b>활동 방식:</b> 저는 궁금한 것이 생기면 직접 해보는 걸 좋아해요.</li><li><b>도전:</b> 저는 새로운 것을 배우고 도전하는 게 재미있어요.</li><li><b>만들기:</b> 나만의 그림을 그리거나 꾸미는 것을 좋아해요.</li><li><b>관심 + 이유:</b> 저는 동물을 좋아하고, 동물의 행동을 관찰하는 게 재미있어요.</li><li><b>관심 + 활동 방식:</b> 저는 친구들과 축구를 하고 새로운 기술을 연습하는 것을 좋아해요.</li><li><b>하고 싶은 일:</b> 저는 언젠가 내가 생각한 게임을 직접 만들어 보고 싶어요.</li></ul></div><div class="field"><label for="intro">나를 표현하는 한 문장</label><textarea id="intro" placeholder="예: 친구들과 축구하는 것을 좋아하고 새로운 것에 도전하는 게 즐거워요."></textarea></div><details id="hintDetails"><summary>💡 문장이 잘 안 떠오르나요? 밸런스 게임에서 힌트 보기</summary><div id="hints" class="block muted"></div><p class="mini">관심사만 적어도 괜찮아요. 예: “저는 축구와 게임을 좋아합니다.” 힌트 문장은 나에게 맞게 고쳐 쓰세요.</p></details></section>
+<section class="page" data-title="홈페이지 기획"><div class="tag">STEP 5 · 약 8분</div><h2>🏠 MY PAGE 기획하기</h2><p class="lead">내가 직접 정한 내용을 어떤 느낌의 홈페이지로 표현할까요?</p><div class="grid2"><div><div class="field"><label for="pageTitle">홈페이지 이름</label><input id="pageTitle" type="text" placeholder="예: MY SPACE, J's LAB, MY WORLD"></div><div class="field"><label for="style">디자인 스타일</label><select id="style"><option value="게임 같은 느낌">🎮 게임 같은 느낌</option><option value="심플하고 깔끔한 느낌">🧊 심플하고 깔끔한 느낌</option><option value="밝고 자유로운 느낌">🌈 밝고 자유로운 느낌</option><option value="어둡고 세련된 느낌">🌙 어둡고 세련된 느낌</option><option value="미래적인 느낌">🪐 미래적인 느낌</option><option value="내가 직접 지정">✏️ 내가 직접 정하기</option></select></div><div class="field"><label for="customStyle">직접 설명하고 싶은 스타일 (선택)</label><input id="customStyle" type="text" placeholder="예: 네이비 배경에 파란색 포인트"></div></div><div class="block muted"><h3>홈페이지 구성</h3><ol><li>홈페이지 제목</li><li>ABOUT ME — 내가 쓴 한 문장</li><li>MY INTEREST — 관심사 카드 3장</li><li>MY FIRST PROJECT — 공룡게임 썸네일 카드</li></ol><p class="mini">태블릿 <b>가로 화면</b>에서 보기 좋게 구성할 거예요.</p></div></div></section>
+<section class="page" data-title="안전 약속"><div class="tag">STEP 6 · 약 5분</div><h2>🔐 안전한 홈페이지 만들기</h2><p class="lead">홈페이지와 이미지 서버에 올린 내용은 다른 사람에게 보일 수도 있어요. 제작하기 전에 꼭 확인해요.</p><div class="grid2"><div class="block"><b>① 개인정보를 넣지 않아요</b><p>실명, 전화번호, 집 주소, 계정 정보 등을 공개하지 않아요.</p></div><div class="block"><b>② 인물 사진을 올리지 않아요</b><p>이번 수업에서는 내 얼굴이나 친구·선생님 사진을 업로드하지 않아요.</p></div><div class="block"><b>③ 저작권을 확인해요</b><p>검색한 이미지라고 마음대로 사용할 수 없어요. 직접 만든 그림 또는 사용이 허용된 이미지만 사용해요.</p></div><div class="block"><b>④ 다른 사람을 배려해요</b><p>놀리는 내용이나 친구의 비밀·개인정보는 넣지 않아요.</p></div></div><div class="block muted"><h3>OX 확인</h3><div id="quiz"></div></div><label class="check"><input id="safeAgree" type="checkbox"><span>이미지 서버에는 공개해도 안전한 파일만 올리고, 개인정보와 인물 사진을 업로드하지 않겠습니다.</span></label><p class="mini">⚠️ 개인정보를 이미지에 넣지 않았는지 캡처한 화면을 확대해서 확인하세요.</p></section>
+<section class="page" data-title="홈페이지 제작"><div class="tag">STEP 7 · 약 15분</div><h2>💻 Gemini Canvas로 홈페이지 만들기</h2><div class="grid2"><div><h3>새 대화에서 시작하세요</h3><ol><li>Gemini를 엽니다.</li><li><b>새 대화</b>를 시작하고 Canvas를 선택합니다.</li><li>아래 프롬프트를 복사합니다.</li><li>Gemini에 붙여넣고 홈페이지를 생성합니다.</li><li>미리보기에서 확인합니다.</li></ol><a target="_blank" rel="noopener noreferrer" href="https://gemini.google.com/">Gemini 열기 ↗</a></div><div><h3>내가 작성한 내용을 AI에게 전달하기</h3><div class="prompt" id="promptBuild"></div><div class="actions"><button class="primary" onclick="copyPrompt('promptBuild')">📋 홈페이지 제작 프롬프트 복사</button></div></div></div></section>
+<section class="page" data-title="이미지 링크"><div class="tag">STEP 8 · 약 15분</div><h2>🖼️ 첫 작품 썸네일 추가하기</h2><div class="grid2"><div><h3>이미지 서버 이용하기</h3><ol><li>지난 시간에 만든 공룡게임 화면을 <b>개인정보 없이</b> 캡처합니다.</li><li>이미지가 없으면 직접 만든 그림이나 이용이 허용된 대체 이미지를 준비합니다.</li><li>이미지 서버에 업로드합니다.</li><li><b>HTML 원본 이미지 링크</b>를 복사합니다.</li><li>아래에 주소를 붙여넣고 Gemini에 수정 요청을 합니다.</li></ol><a href="https://ko.imgbb.com/" target="_blank" rel="noopener noreferrer">ImgBB 열기 ↗</a></div><div><div class="field"><label for="imageUrl">이미지BB HTML 원본 이미지 링크</label><textarea id="imageUrl" rows="3" placeholder=""></textarea><div class="mini" id="imageUrlStatus" aria-live="polite"></div></div><div class="field"><label for="projectName">첫 작품 이름</label><input id="projectName" type="text" placeholder="예: 미래도시 로봇 점프"></div><div class="field"><label for="projectDesc">게임 소개 한 문장</label><textarea id="projectDesc" placeholder="예: 운석을 피하며 점프하는 게임이에요."></textarea></div><div class="prompt" id="promptImage"></div><div class="actions"><button class="primary" onclick="copyPrompt('promptImage')">📋 썸네일 추가 프롬프트 복사</button></div></div></div><div class="tip warn">⚠️ 사진이나 화면에 본인·친구의 얼굴, 실명, 학교 계정, 채팅 내용 등이 없는지 업로드 전에 확인하세요.</div></section>
+<section class="page" data-title="관심사 카드 업그레이드"><div class="tag">STEP 9 · 약 15분</div><h2>✨ MY INTEREST 카드 업그레이드</h2><p class="lead">기본 홈페이지의 관심사 카드 3장을 누르면 <b>각각 추가 소개 영역이 펼쳐지는 기능</b>을 만듭니다. </p><div class="block muted"><h3>공통 미션: 카드 3장 펼치기</h3><p>카드의 기존 소개는 항상 보이게 두고, 더 알아보기 버튼으로 추가 설명 영역을 펼치도록 수정해요.</p><div class="prompt" id="promptExpand"></div><button class="primary" onclick="copyPrompt('promptExpand')">📋 카드 펼치기 프롬프트 복사</button></div><div class="grid2"><div><h3>미션: 관심사 카드 더 꾸미기</h3><div class="field"><label for="focusCard">어떤 카드를 바꿀까요?</label><select id="focusCard"><option value="0">관심사 1</option><option value="1">관심사 2</option><option value="2">관심사 3</option></select></div><div class="field"><label for="extraDetail">더 소개하고 싶은 내용</label><textarea id="extraDetail" placeholder="예: 내가 좋아하는 팀은..., 이 게임은 이런 점이 재미있어..."></textarea></div><div class="field"><label for="relatedUrl">관련 홈페이지 주소 (선택)</label><input id="relatedUrl" type="url" placeholder="https://공식사이트주소"></div><div class="field"><label for="extraImage">관련 이미지 링크 또는 이미지BB HTML 코드 (선택)</label><textarea id="extraImage" rows="3" placeholder='<a href="https://ibb.co/..."><img src="https://i.ibb.co/.../image.jpg"></a> 또는 이미지 직접 주소'></textarea><div class="mini" id="extraImageStatus" aria-live="polite"></div></div><p class="mini">공식 사이트, 안전하고 적절한 소개 페이지를 연결하세요. 입력하지 않은 기능은 생략할 수 있어요.</p></div><div><h3>나만의 업그레이드 요청문</h3><div class="prompt" id="promptUpgrade"></div><button class="primary" onclick="copyPrompt('promptUpgrade')">📋 업그레이드 프롬프트 복사</button><div class="tip" style="margin-top:12px">🔍 수정 후에는 모든 카드, 썸네일, 연결 버튼이 제대로 작동하는지 다시 확인해요. 사이트 링크는 새 탭으로 열고 안전한 주소만 사용합니다.</div></div></div></section>
+<section class="page" data-title="공유·제출·성찰"><div class="tag">STEP 10 · 약 10분</div><h2>🎉 내 홈페이지 공유하고 돌아보기</h2><div class="grid2"><div><h3>체크리스트</h3><div id="finalChecks"></div><h3>친구의 홈페이지 체험</h3><p class="mini">친구의 관심사를 더 알게 된 점이나 재미있는 기능을 하나 말해 주세요.</p><h3>결과 제출</h3><ol><li>Gemini Canvas에서 HTML 파일을 다운로드합니다.</li><li>선생님이 안내한 패들렛에 접속합니다.</li><li>별명 또는 교사의 제출 지시에 따른 식별 정보, 홈페이지 제목, 소개를 작성합니다.</li><li>HTML 파일을 첨부해 제출합니다.</li></ol><a target="_blank" rel="noopener noreferrer" href="https://padlet.com/shshin0781/breakout-room/xPdL4gEdbYe1qpwK-OPZ4XKlDV5Kdvqg1" id="padletLink">패들렛 열기 ↗</a><p class="mini">링크가 현재 반의 제출 공간과 다르면 선생님에게 안내받은 링크를 사용하세요.</p></div><div><h3>오늘의 한 줄</h3><div class="field"><label for="reflection">오늘 홈페이지에서 내가 직접 결정한 것은?</label><textarea id="reflection" placeholder="예: 관심사 세 가지를 정하고 축구팀 사이트를 연결했어요."></textarea></div><div class="field"><label for="favorite">가장 재미있었던 활동</label><select id="favorite"><option value="">선택해 보세요</option><option>내 관심사 정하기</option><option>홈페이지 디자인하기</option><option>이미지 업로드·연결하기</option><option>관심사 카드 기능 추가하기</option><option>오류를 찾아 수정하기</option></select></div><div class="tip">💡 <b>나를 소개하는 내용은 내가 정하고</b>, AI는 그것을 홈페이지로 만드는 것을 도와줬어요.<br>다음 시간에는 내 관심사로 만들고 싶은 프로젝트를 찾아봅니다.</div><div class="actions"><button onclick="saveReportPDF()">활동 기록 PDF로 저장</button><button onclick="resetAll()">전체 활동 초기화</button></div></div></div></section>
+<div class="footer"><button id="prev" onclick="go(current-1)">← 이전 단계</button><button class="primary" id="next" onclick="go(current+1)">다음 단계 →</button></div></main></div><div id="toast" role="status"></div>
+<article id="printReport" aria-hidden="true"></article><script>
+'use strict';const KEY='mypage_lesson2_v2';let state={};try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}let current=Math.max(0,Math.min(9,Number(state.current)||0));const steps=[...document.querySelectorAll('.page')];const qs=[['자유시간에 더 하고 싶은 것은?','🎮 게임하기','🎬 영상 보기'],['직접 무언가를 만든다면?','🎨 그림·디자인 만들기','⚙️ 새로운 기능 만들기'],['내가 더 편한 활동 방식은?','🧑 혼자 집중하기','👥 친구들과 함께하기'],['나에게 더 즐거운 것은?','💖 좋아하는 것 깊이 파기','🚀 새로운 것 도전하기'],['새 프로젝트를 시작한다면?','📋 계획 세우기','⚡ 일단 시작하고 바꾸기']];const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}};const get=id=>document.getElementById(id)?.value?.trim()||'';const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const name=i=>get('interest'+i)||`관심사 ${i+1}`;const desc=i=>get('reason'+i)||'아직 소개를 작성하지 않았어요';const toast=msg=>{let t=document.getElementById('toast');t.textContent=msg;t.style.display='block';clearTimeout(window._toast);window._toast=setTimeout(()=>t.style.display='none',2200)};
+function fill(){document.getElementById('nav').innerHTML=steps.map((p,i)=>`<button class="navbtn" onclick="go(${i})"><span class="navnumber">${String(i+1).padStart(2,'0')}</span><span class="navtitle">${p.dataset.title}</span></button>`).join('');document.getElementById('balance').innerHTML=qs.map((q,i)=>`<div class="block"><b>${i+1}. ${q[0]}</b><div class="grid2">${[1,2].map(j=>`<label class="choice"><input type="radio" name="balance${i}" value="${j}" ${state['balance'+i]===String(j)?'checked':''}><span>${q[j]}</span></label>`).join('')}</div></div>`).join('');document.getElementById('interests').innerHTML=[0,1,2].map(i=>`<div class="block"><h3>0${i+1}. 나의 관심사</h3><div class="field"><label for="interest${i}">좋아하는 것</label><input type="text" id="interest${i}" placeholder="예: 게임, 축구, 음악"></div><div class="field"><label for="reason${i}">어떤 점이 좋나요?</label><textarea id="reason${i}" placeholder="예: 친구들과 함께 축구를 하는 게 즐거워요."></textarea></div></div>`).join('');document.getElementById('quiz').innerHTML=[['검색해서 나온 이미지는 모두 자유롭게 사용해도 된다.','X'],['이번 수업에서는 친구 얼굴 사진을 이미지 서버에 올리지 않는다.','O'],['내 게임 화면에서 개인정보를 지운 후 썸네일로 사용한다.','O']].map((q,i)=>`<div class="field"><label>${i+1}. ${q[0]}</label><select id="ox${i}"><option value="">답 선택</option><option value="O">O</option><option value="X">X</option></select><div class="mini" id="oxFeedback${i}"></div></div>`).join('');document.getElementById('finalChecks').innerHTML=['홈페이지 이름과 자기소개가 보인다','관심사 카드 3장이 보인다','카드를 누르면 상세 설명이 펼쳐진다','첫 작품 썸네일 이미지가 보인다','링크를 넣었다면 정상적으로 열린다','개인정보·인물 사진·저작권을 확인했다'].map((q,i)=>`<label class="check"><input id="check${i}" type="checkbox"><span>${q}</span></label>`).join('');document.querySelectorAll('input[id],textarea[id],select[id]').forEach(el=>{if(state[el.id]!==undefined){if(el.type==='checkbox')el.checked=state[el.id]===true;else el.value=state[el.id]}});document.querySelectorAll('input,textarea,select').forEach(el=>{el.addEventListener('input',handle);el.addEventListener('change',handle)});document.querySelectorAll('input[type=radio]').forEach(el=>{if(state[el.name]===el.value)el.checked=true});render()}
+function handle(ev){let e=ev.target;if(e.type==='radio')state[e.name]=e.value;else if(e.id)state[e.id]=e.type==='checkbox'?e.checked:e.value;save();renderDynamic()}
+function hints(){const selected=qs.flatMap((q,i)=>state['balance'+i]?[q[Number(state['balance'+i])]]:[]);const list=selected.map(x=>`<li>${esc(x)} → ${esc(x.replace(/^\S+\s/,''))}을(를) 좋아하는 편이에요.</li>`).join('');document.getElementById('hints').innerHTML=selected.length?`<p>내가 앞에서 고른 것들:</p><ul>${list}</ul><p><b>문장 만들기 예:</b> “저는 ${esc(selected[0].replace(/^\S+\s/,''))}을(를) 좋아해요.”</p>`:'아직 밸런스 게임 선택이 없어요. STEP 2에서 선택해 보거나, 나의 관심사 세 가지를 이용해서 써도 좋아요.'}
+function validUrl(u){if(!u)return false;try{return ['https:','http:'].includes(new URL(u).protocol)}catch(e){return false}}
+function extractImageUrl(raw){
+  const text=String(raw||'').trim();if(!text)return '';
+  // ImgBB HTML original image link: use IMG src, never the outer anchor href.
+  if(text.includes('<')){
+    const doc=new DOMParser().parseFromString(text,'text/html');
+    const img=doc.querySelector('img[src]');
+    if(img){const u=img.getAttribute('src');return validUrl(u)?u:''}
+    return '';
+  }
+  if(validUrl(text)){
+    try{const u=new URL(text);if(u.hostname==='ibb.co'||u.hostname==='www.ibb.co')return '';return u.href}catch(e){return ''}
+  }
+  return '';
+}
+function imageStatus(field,output){
+  const raw=get(field),url=extractImageUrl(raw),el=document.getElementById(output);
+  if(!el)return;
+  el.textContent=!raw?'이미지BB의 HTML 원본 이미지 링크 전체를 붙여넣어도 됩니다.':url?'✅ 이미지 주소 인식 완료: '+url:'⚠️ 이미지 주소를 찾지 못했어요. HTML 코드의 <img src="..."> 또는 직접 이미지 주소를 확인하세요.';
+}
+function generatePrompts(){
+  const title=get('pageTitle')||'MY SPACE';
+  const intro=get('intro')||'나를 표현하는 한 문장';
+  const style=get('style')==='내가 직접 지정'?(get('customStyle')||'심플하고 깔끔한 느낌'):(get('style')||'심플하고 깔끔한 느낌');
+  const interests=[0,1,2].map(i=>`${i+1}. ${name(i)} — 좋아하는 이유: ${desc(i)}`).join('\n');
+  const build=`중학교 1학년 학생의 자기소개 홈페이지를 HTML 파일 하나로 만들어줘. 아래 내용과 레이아웃을 충실하게 반영해줘.\n\n[학생이 정한 내용]\n홈페이지 이름: ${title}\nABOUT ME 문장: ${intro}\n원하는 분위기: ${style}\n관심사 3개:\n${interests}\n학생이 작성한 문구는 바꾸거나 성격·진로를 추측하지 마.\n\n[디자인과 배치 — 중요]\n- 태블릿 가로 화면(1280×800, 16:10)을 기준으로 깔끔하고 완성도 높은 개인 포트폴리오처럼 만들어줘. 학생이 선택한 분위기를 색상·장식에 반영하되 가독성을 우선해줘.\n- 전체는 배경/글자/포인트 색의 조화를 맞추고, 적당한 여백·정돈된 정렬·일관된 카드 크기와 모서리 스타일을 사용해줘. 지나친 그라데이션, 빽빽한 장식, 움직이는 효과는 피하고 버튼과 글자는 충분히 크게 만들어줘.\n- 상단: 홈페이지 이름과 ABOUT ME 한 문장.\n- 가운데: MY INTEREST 제목 아래 가로로 균형 있게 배치한 동일한 크기의 카드 3장. 각 카드에 어울리는 이모지, 관심사 이름, 좋아하는 이유를 모두 처음부터 표시해줘. 텍스트가 잘리지 않게 해줘. 지금은 펼치기·접기나 클릭 기능을 넣지 마.\n- 아래: MY FIRST PROJECT 영역. 'AI와 함께 만든 나의 첫 게임'이라는 제목과 이미지가 들어갈 썸네일 자리, 짧은 소개 문구를 배치해줘. 썸네일 자리는 나중에 이미지 URL만 교체하기 쉬운 하나의 img 요소로 만들어줘.\n- 전체는 가로 스크롤 없이 표시하고, 화면이 좁아질 때는 자연스럽게 줄바꿈해줘.\n\n[구현]\nHTML, CSS, JavaScript를 하나의 HTML 파일에 넣고 외부 라이브러리나 외부 이미지에 의존하지 마. 임시 이미지 자리는 CSS나 간단한 대체 표시를 사용해줘. 기본 홈페이지는 정적 소개 페이지로 만들고, 나중에 기능을 추가하기 쉬운 단순한 구조로 작성해줘.\n\n먼저 이 디자인을 완성도 있게 제작해줘. 없는 프로필 정보나 관심사를 임의로 만들어 추가하지 마.`;
+  document.getElementById('promptBuild').textContent=build;
+  const image=extractImageUrl(get('imageUrl')),project=get('projectName')||'내 첫 게임',summary=get('projectDesc')||'AI와 함께 만든 첫 번째 공룡 점프 게임';
+  document.getElementById('promptImage').textContent=`현재 홈페이지 디자인과 레이아웃은 유지하고 MY FIRST PROJECT 영역만 수정해줘.\n\n[바꿀 내용]\n첫 작품 이름: ${project}\n작품 소개: ${summary}\n${validUrl(image)?`기존 썸네일 이미지 자리에 다음 직접 이미지 URL을 적용해줘: ${image}`:'이미지 URL이 아직 없으므로 기존 썸네일 자리를 그대로 유지해줘.'}\n\n[유지할 내용]\nABOUT ME, MY INTEREST 카드 3개, 전체 색상·폰트·여백·위치와 다른 기능은 변경하지 마. 새로운 페이지를 다시 만들거나 전체 디자인을 바꾸지 마.\n이미지 비율을 유지하고 썸네일 영역 안에 보기 좋게 표시해줘. 수정 후 기존 내용이 모두 보이는지 확인해줘.`;
+  document.getElementById('promptExpand').textContent=`현재 홈페이지의 MY INTEREST 영역에만 기능을 추가해줘. 홈페이지 전체를 다시 만들지 마.\n\n[현재 보이는 카드 내용은 그대로 유지]\n${interests}\n각 카드의 이모지, 제목, 좋아하는 이유는 항상 보이게 유지해줘. 카드 크기와 디자인도 그대로 유지해줘.\n\n[새로 추가할 기능]\n각 카드 아래에 '더 알아보기' 버튼을 하나씩 추가해줘. 태블릿에서 버튼을 누르면 해당 카드 아래의 별도 상세 영역이 펼쳐지고, 다시 누르면 접히게 해줘. 처음에는 상세 영역을 접어둬. 상세 영역에는 우선 해당 관심사 이름과 '내가 좋아하는 것을 더 소개할게요!'라는 간단한 안내만 표시해줘. 원래 보이던 좋아하는 이유를 상세 영역으로 옮기거나 중복해서 넣지 마.\n\n[변경 금지]\n기존 ABOUT ME, MY FIRST PROJECT, 이미지 주소, 다른 카드 내용, 색상·폰트·배치는 변경하지 마. 외부 라이브러리 없이 간단한 JavaScript로 버튼 기능만 추가해줘. 모든 카드 버튼이 각각 정상 작동하는지 확인해줘.`;
+  const n=Number(get('focusCard'))||0,url=get('relatedUrl'),img=extractImageUrl(get('extraImage')),detail=get('extraDetail').trim();
+  document.getElementById('promptUpgrade').textContent=`현재 홈페이지에서 MY INTEREST의 '${name(n)}' 카드 하나만 수정해줘. 기존 카드와 다른 영역을 다시 만들지 마.\n\n[수정할 위치]\n'${name(n)}' 카드의 '더 알아보기' 버튼을 눌러 열리는 상세 영역 안에만 아래 내용을 추가해줘. 카드의 기본 이모지·이름·좋아하는 이유는 항상 보이도록 그대로 유지해줘.\n${detail?`추가 소개: ${detail}`:'추가 소개를 입력하지 않았으므로 현재 상세 설명을 유지해줘.'}\n${validUrl(url)?`'관련 사이트 방문하기' 버튼을 추가하고 클릭하면 새 탭에서 ${url} 로 이동하게 해줘. 링크에는 rel="noopener noreferrer"를 사용해줘.`:'관련 사이트 버튼은 추가하지 마.'}\n${validUrl(img)?`상세 영역에 다음 이미지 주소의 이미지를 넣어줘: ${img}. 이미지 비율을 유지해줘.`:'새 이미지는 추가하지 마.'}\n\n[변경 금지]\n다른 관심사 카드 두 장, ABOUT ME, MY FIRST PROJECT, 전체 디자인과 이미 작동하는 기능은 건드리지 마. 기존 펼치기·접기 버튼은 그대로 작동해야 해. 변경 후 버튼과 외부 링크를 확인해줘.`;
+}
+function prompts(){
+  generatePrompts();
+  document.querySelectorAll('.prompt').forEach(el=>{
+    if(Object.prototype.hasOwnProperty.call(state.promptEdits||{},el.id))el.textContent=state.promptEdits[el.id];
+  });
+}
+function setupPromptEditors(){
+  document.querySelectorAll('.prompt').forEach(el=>{
+    el.contentEditable='plaintext-only';
+    el.setAttribute('role','textbox');
+    el.setAttribute('aria-multiline','true');
+    el.setAttribute('aria-label',({promptBuild:'홈페이지 제작',promptImage:'썸네일 추가',promptExpand:'카드 펼치기',promptUpgrade:'카드 업그레이드'}[el.id]||'')+' 프롬프트 편집');
+    el.setAttribute('spellcheck','false');
+    el.addEventListener('input',()=>{
+      if(!state.promptEdits||typeof state.promptEdits!=='object')state.promptEdits={};
+      state.promptEdits[el.id]=el.innerText;
+      save();
+    });
+    const note=document.createElement('div');note.className='mini prompt-editor-note';
+    const hint=document.createElement('span');hint.textContent='클릭해서 수정 · 수정 내용은 이 기기에 자동 저장됩니다.';
+    const reset=document.createElement('button');reset.type='button';reset.textContent='자동 생성 내용으로 되돌리기';
+    reset.addEventListener('click',()=>{if(state.promptEdits)delete state.promptEdits[el.id];save();prompts();toast('자동 생성 프롬프트로 되돌렸어요.');});
+    note.append(hint,reset);el.before(note);
+  });
+}
+function renderDynamic(){hints();prompts();imageStatus('imageUrl','imageUrlStatus');imageStatus('extraImage','extraImageStatus');[0,1,2].forEach(i=>{let el=document.getElementById('oxFeedback'+i);if(!el)return;let v=get('ox'+i);el.textContent=v?(v===['X','O','O'][i]?'✅ 정답이에요.':'💡 다시 생각해 보세요.'):' '})}
+function render(){steps.forEach((p,i)=>p.classList.toggle('active',i===current));document.querySelectorAll('.navbtn').forEach((b,i)=>b.classList.toggle('active',i===current));document.getElementById('bar').style.width=`${(current+1)*10}%`;document.getElementById('stepLabel').textContent=`${String(current+1).padStart(2,'0')} / 10`;document.getElementById('prev').disabled=current===0;document.getElementById('next').textContent=current===9?'마지막 단계 ✓':'다음 단계 →';document.getElementById('next').disabled=current===9;renderDynamic()}
+function go(i){current=Math.max(0,Math.min(9,i));state.current=current;save();render();window.scrollTo({top:0,behavior:'instant'})}
+async function copyPrompt(id){const s=document.getElementById(id).innerText;if(navigator.clipboard&&window.isSecureContext){try{await navigator.clipboard.writeText(s);toast('프롬프트가 복사되었어요!');return}catch(e){}}const ta=document.createElement('textarea');ta.value=s;ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.focus();ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}ta.remove();if(ok)toast('프롬프트가 복사되었어요!');else{let w=window.prompt('복사가 차단되었어요. 아래 내용을 선택해 복사하세요.',s);toast('복사할 내용을 확인하세요.')}}
+function downloadNotes(){let rows=['2회차 MY PAGE 활동 기록',`학번·별명: ${get('student')}`,`홈페이지: ${get('pageTitle')}`,`ABOUT ME: ${get('intro')}`, ...[0,1,2].map(i=>`관심사 ${i+1}: ${name(i)} / ${desc(i)}`),`첫 작품: ${get('projectName')} / ${get('projectDesc')}`,`오늘의 한 줄: ${get('reflection')}`,`가장 재미있었던 활동: ${get('favorite')}`];const b=new Blob([rows.join('\n')],{type:'text/plain;charset=utf-8'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='MY_PAGE_활동기록.txt';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
+function saveReportPDF(){
+  // Refresh report from current form fields before opening the device print/PDF dialog.
+  const val=id=>get(id)||'미작성';
+  const row=(label,value)=>`<div class="report-entry"><span class="report-label">${esc(label)}:</span> ${esc(value||'미작성')}</div>`;
+  const choices=qs.map((q,i)=>{const v=state['balance'+i];return row(`${i+1}. ${q[0]}`,v===undefined?'미선택':q[Number(v)+1]||'미선택')}).join('');
+  const cards=[0,1,2].map(i=>`<div class="report-card">${row(`관심사 ${i+1}`,get('interest'+i))}${row('좋아하는 이유',get('reason'+i))}</div>`).join('');
+  const checked=[0,1,2,3,4,5].filter(i=>document.getElementById('check'+i)?.checked).length;
+  const safeUrl=raw=>extractImageUrl(raw)||'미입력';
+  document.getElementById('printReport').innerHTML=`
+    <h1>🏠 MY PAGE | 2회차 활동 기록</h1>
+    <div class="report-meta">중1 자유학기 · AI와 함께 만드는 나만의 자기소개 홈페이지</div>
+    ${row('학번·별명',get('student'))}
+    <h2>1. 취향 밸런스 게임</h2>${choices}
+    <h2>2. 나의 관심사 3가지</h2>${cards}
+    <h2>3. 나를 표현하는 한 문장</h2>${row('ABOUT ME',get('intro'))}
+    <h2>4. 나의 홈페이지 기획</h2>
+    ${row('홈페이지 제목',get('pageTitle'))}${row('디자인 스타일',get('style')==='내가 직접 지정'?get('customStyle'):get('style'))}
+    <h2>5. 나의 첫 작품</h2>
+    ${row('작품 이름',get('projectName'))}${row('작품 설명',get('projectDesc'))}${row('썸네일 이미지 주소',safeUrl(get('imageUrl')))}
+    <h2>6. 관심사 카드 꾸미기</h2>
+    ${row('선택한 관심사',name(Number(get('focusCard'))||0))}${row('추가 소개',get('extraDetail'))}${row('관련 사이트',get('relatedUrl'))}${row('추가 이미지 주소',safeUrl(get('extraImage')))}
+    <h2>7. 마무리 성찰</h2>
+    ${row('내가 직접 결정한 것',get('reflection'))}${row('가장 재미있었던 활동',get('favorite'))}${row('최종 체크리스트',`${checked} / 6개 확인`)}
+    <div class="report-foot">이 문서는 학생이 작성한 활동 내용을 정리한 기록입니다. 실제 제작한 홈페이지 HTML 파일은 별도로 제출해야 합니다.</div>`;
+  document.getElementById('printReport').setAttribute('aria-hidden','false');
+  const originalTitle=document.title;
+  const identifier=(get('student')||'학생').replace(/[\\/:*?"<>|]/g,'_').slice(0,30);
+  document.title=`MY_PAGE_2회차_활동기록_${identifier}`;
+  window.addEventListener('afterprint',()=>{document.title=originalTitle;document.getElementById('printReport').setAttribute('aria-hidden','true')},{once:true});
+  window.print();
+  toast('인쇄 창에서 「PDF로 저장」을 선택하세요.');
+}
+function resetAll(){if(confirm('이 기기에 저장된 2회차 활동 내용을 모두 초기화할까요?')){localStorage.removeItem(KEY);location.reload()}}
+setupPromptEditors();
+fill();
+</script></body></html>
